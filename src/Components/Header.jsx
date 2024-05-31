@@ -1,7 +1,6 @@
 
 import React from "react";
 
-// Header Component
 export default function Header() {
   return (
     <header className="header">
