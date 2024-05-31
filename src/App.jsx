@@ -1,14 +1,15 @@
-import React from "react"
-import Header from "./components/Header"
-import Meme from "./components/Meme"
-function App() {
 
+import React from "react";
+import Header from "./Components/Header.jsx";
+import Meme from "./Components/Meme.jsx";
+
+function App() {
   return (
     <div>
-       <Header/>
-       <Meme />
+      <Header />
+      <Meme />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
